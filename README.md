@@ -8,4 +8,6 @@ Please see the read.md file on the best way to run the test.
 You need to have Yarn installed
 
 npm install
+
+
 npx wdio run ./wdio.conf.js
