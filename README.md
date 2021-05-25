@@ -14,6 +14,7 @@ The project has 2 tests that can be located within the feature file feature/Race
 
   #### Included Tests
 Scenario 1 - Big race event displays next upcomming event
+
 Scenario 2 - Runners Tab - Runner Index Buttons are named correctly and displayed in expected order
 
   #### You will need:
