@@ -24,4 +24,28 @@ Scenario 2 - Runners Tab - Runner Index Buttons are named correctly and displaye
 
 
   #### Setup:
-From the projects base directory run the following cmd …
+From the projects base directory run the following cmd in a Terminal window
+
+    npm install @wdio/cli
+    
+Followed by the cmd
+
+    npm install
+
+This will install all of the required dependencies to execute the automation suite
+  #### Executing Test:
+In order to execute the automation suite navigate to the Project directory within a Terminal/CMD window and run the command: 
+
+    yarn test
+
+Thhe tests should now start running in a chrome browser window.
+
+To run the tests and generate a report execute the cmd
+
+    yarn test:report
+
+This will execute the test generate an Allure report and open it in a browser window.
+
+In the absence of yarn being installed the following cmd can be executed from the base directory of the project, but the report will not be generated.
+
+    npx wdio run ./wdio.conf.js
