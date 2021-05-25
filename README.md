@@ -39,7 +39,7 @@ In order to execute the automation suite navigate to the Project directory withi
 
     yarn test
 
-Thhe tests should now start running in a chrome browser window.
+The tests should now start running in a chrome browser window.
 
 To run the tests and generate a report execute the cmd
 
